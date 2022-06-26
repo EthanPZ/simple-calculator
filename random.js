@@ -16,35 +16,35 @@ document.getElementById("submitbutton").onclick = function() {
         first = Number(first);
         second = Number(second);
         let sum = first + second;
-        result.innerHTML = sum;
+        result.innerHTML = 'Answer is: ' + sum;
     }
 
     else if (operator == "-") {
         first = Number(first);
         second = Number(second);
         let sum = first - second;
-        result.innerHTML = sum;
+        result.innerHTML = 'Answer is: ' + sum;
     }
 
     else if (operator == "*") {
         first = Number(first);
         second = Number(second);
         let sum = first * second;
-        result.innerHTML = sum;
+        result.innerHTML = 'Answer is: ' + sum;
     }
 
     else if (operator == "/") {
         first = Number(first);
         second = Number(second);
         let sum = first / second;
-        result.innerHTML = sum;
+        result.innerHTML = 'Answer is: ' + sum;
     }
 
     else if (operator == "%") {
         first = Number(first);
         second = Number(second);
         let sum = first % second;
-        result.innerHTML = sum;
+        result.innerHTML = 'Answer is: ' + sum;
     }
 
     else {
